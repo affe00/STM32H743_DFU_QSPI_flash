@@ -41,10 +41,14 @@ With XIP on QSPI functionality it makes the programmer feel at ease. Even if the
 ### Board markings: 
 mcudev.taobao.com DevEBox STM32F7XX_M Ver:V2.0 SN:1907
 
-The dev. board can be bought at: https://item.taobao.com/item.htm?&id=601083694791 or: https://www.aliexpress.com/item/4000235276780.html
+The dev. board can be bought at: [taobao](https://item.taobao.com/item.htm?&id=601083694791) or: [AliExpress](https://www.aliexpress.com/item/4000235276780.html)
 
 ### Cross References:
 
 In STM32Cube_FW_H7_V1.5.0\Projects\STM32H750B-DK\Templates\ExtMem_Boot, sample code is provided for booting from QSPI flash or NOR flash.
 
 In STM32Cube_FW_H7_V1.5.0\Projects\STM32H743I-EVAL\Applications\USB_Device\DFU_Standalone, sample code is provided for DFU functions.
+
+[STM32Cube USB Device Library dual DFU](https://community.st.com/s/question/0D50X00009Xka1tSAB/stm32cube-usb-device-library-dual-dfu) on ST Community.
+
+[How to export Alternate memory regions for USB DFU?](https://community.st.com/s/question/0D50X00009XkeS5SAJ/how-to-export-alternate-memory-regions-for-usb-dfu) on ST Community.
