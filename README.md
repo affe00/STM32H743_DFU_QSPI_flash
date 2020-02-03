@@ -7,12 +7,14 @@ Reset with K2 pressed(pin C5=0) will direct program into DFU mode. Reset without
 
 By:
 
-```USBD_DFU_RegisterMedia(&hUsbDeviceFS, &USBD_DFU_QSPI_FLASH_fops_FS)
+```c
+USBD_DFU_RegisterMedia(&hUsbDeviceFS, &USBD_DFU_QSPI_FLASH_fops_FS)
 ```
 in H743_Proj06\USB_DEVICE\App\usb_device.c, it will program onto W25Q64, which can be mapped at 0x90000000 for XIP.
 
 By:
-```USBD_DFU_RegisterMedia(&hUsbDeviceFS, &USBD_DFU_fops_FS)
+```c
+USBD_DFU_RegisterMedia(&hUsbDeviceFS, &USBD_DFU_fops_FS)
 ```
 in H743_Proj06\USB_DEVICE\App\usb_device.c, it will program onto on-chip flash starting at 0X08020000.
 
