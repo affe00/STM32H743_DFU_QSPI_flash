@@ -45,9 +45,9 @@ The dev. board can be bought at: [taobao](https://item.taobao.com/item.htm?&id=6
 
 ### Cross References:
 
-In STM32Cube_FW_H7_V1.5.0\Projects\STM32H750B-DK\Templates\ExtMem_Boot, sample code is provided for booting from QSPI flash or NOR flash.
+In `STM32Cube_FW_H7_V1.5.0\Projects\STM32H743I-EVAL\Applications\ExtMem_CodeExecution\ExtMem_Boot`, sample code is provided for booting from QSPI flash or NOR flash.
 
-In STM32Cube_FW_H7_V1.5.0\Projects\STM32H743I-EVAL\Applications\USB_Device\DFU_Standalone, sample code is provided for DFU functions.
+In `STM32Cube_FW_H7_V1.5.0\Projects\STM32H743I-EVAL\Applications\USB_Device\DFU_Standalone`, sample code is provided for DFU functions.
 
 [STM32Cube USB Device Library dual DFU](https://community.st.com/s/question/0D50X00009Xka1tSAB/stm32cube-usb-device-library-dual-dfu) on ST Community.
 
